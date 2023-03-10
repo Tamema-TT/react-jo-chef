@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Brownie",
+        "dsc": "A rich, chocolatey dessert with a fudgy texture.",
+        "price": 3.99
+    },
+    {
+        "id": 2,
+        "name": "Custard",
+        "dsc": "A creamy, vanilla-flavored dessert made with eggs and milk.",
+        "price": 2.99
+    },
+    {
+        "id": 3,
+        "name": "Cookies",
+        "dsc": "A baked sweet treat made with butter, sugar, and flour.",
+        "price": 1.99
+    },
+    {
+        "id": 4,
+        "name": "Raspberry Pie",
+        "dsc": "A sweet and tart pie made with fresh raspberries and a buttery crust.",
+        "price": 4.99
+    },
+    {
+        "id": 5,
+        "name": "Strawberry Cheesecake",
+        "dsc": "A creamy, tangy cheesecake with a sweet strawberry topping.",
+        "price": 5.99
+    },
+    {
+        "id": 6,
+        "name": "Chocolate Cookie",
+        "dsc": "A crispy, chocolatey cookie that's perfect for dunking in milk.",
+        "price": 1.99
+    },
+    {
+        "id": 7,
+        "name": "Marshmallow",
+        "dsc": "A soft, sweet confection made from sugar, gelatin, and corn syrup.",
+        "price": 0.99
+    },
+    {
+        "id": 8,
+        "name": "Cupcake",
+        "dsc": "A small, single-serving cake that's often topped with frosting or sprinkles.",
+        "price": 2.49
+    }
+]

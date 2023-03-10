@@ -2,6 +2,9 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { setImages } from '../../redux/actions/allActions';
 import Items from './components/Items';
+import pizzasData from '../../data/pizzas.json';
+import dessertsData from '../../data/desserts.json';
+import beveragesDate from '../../data/beverages.json';
 
 const Menu = () => {
     const pizzas = useSelector((state) => state.menuReducer.pizzas); //get pizzas from store
@@ -34,7 +37,8 @@ const Menu = () => {
             <h1 className='text-center text-5xl font-bold font-menuHead text-primary-focus mb-8'>Pizzas</h1>
             {/* Show pizza menu */}
             <Items
-                apiLink = {`https://ig-food-menus.herokuapp.com/pizzas?_limit=4`}
+                apiLink = {pizzasData}
+                // apiLink = {`https://ig-food-menus.herokuapp.com/pizzas?_limit=4`}
                 menuType = "SET_PIZZAS"
                 menuArray = {pizzas}
                 images = {pizzaImages}
@@ -42,7 +46,8 @@ const Menu = () => {
             <h1 className='text-center text-5xl font-bold font-menuHead my-8 text-primary-focus'>Desserts</h1>
             {/* Show dessert menu */}
             <Items
-                apiLink={`https://ig-food-menus.herokuapp.com/desserts?_limit=8`}
+                apiLink={dessertsData}
+                // apiLink={`https://ig-food-menus.herokuapp.com/desserts?_limit=8`}
                 menuType = "SET_DESSERTS"
                 menuArray = {desserts}
                 images = {dessertImages}
@@ -50,7 +55,8 @@ const Menu = () => {
             <h1 className='text-center text-5xl font-bold font-menuHead my-8 text-primary-focus'>Beverages</h1>
             {/* Show beverage menu */}
             <Items
-                apiLink={`https://ig-food-menus.herokuapp.com/drinks?_limit=6`}
+                apiLink={beveragesDate}
+                // apiLink={`https://ig-food-menus.herokuapp.com/drinks?_limit=6`}
                 menuType = "SET_BEVERAGES"
                 menuArray = {beverages}
                 images = {beverageImages}

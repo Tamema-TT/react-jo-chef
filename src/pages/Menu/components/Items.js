@@ -5,11 +5,13 @@ import Item from './Item';
 
 const Items = ({apiLink, menuType, menuArray, images}) => {
     const dispatch = useDispatch();
+    
     //Fetch & set the menus
     useEffect(() => {
-        fetch(apiLink)
-            .then((response) => response.json())
-            .then((data) => dispatch(setMenus(data, menuType)));
+        dispatch(setMenus(apiLink, menuType))
+        // fetch(apiLink)
+        //     .then((response) => response.json())
+        //     .then((data) => dispatch(setMenus(data, menuType)));
     }, [])
 
     //Combining menu api with unsplash api
@@ -22,10 +24,10 @@ const Items = ({apiLink, menuType, menuArray, images}) => {
     return (
         <div className='grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-2'>
             {
-                completeApi.map(menuItem => 
+                completeApi.map((menuItem, index) => 
                     <Item
                         menuItem={menuItem}
-                        key={menuItem.id}
+                        key={index}
                     ></Item>)
             }
         </div>

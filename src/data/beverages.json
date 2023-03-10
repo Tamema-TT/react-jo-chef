@@ -1,0 +1,38 @@
+[
+    {
+        "id": 13,
+        "name": "Bubble Tea",
+        "dsc": "A sweet and creamy Taiwanese tea-based drink with chewy tapioca pearls.",
+        "price": 4.99
+    },
+    {
+        "id": 14,
+        "name": "Mixed Soda",
+        "dsc": "A fizzy, refreshing drink made with a blend of different sodas.",
+        "price": 2.99
+    },
+    {
+        "id": 15,
+        "name": "Grape Juice",
+        "dsc": "A sweet and tangy juice made from fresh grapes.",
+        "price": 3.49
+    },
+    {
+        "id": 16,
+        "name": "French Lemonade",
+        "dsc": "A traditional French drink made with freshly squeezed lemons and sugar.",
+        "price": 2.99
+    },
+    {
+        "id": 17,
+        "name": "Mocktail",
+        "dsc": "A non-alcoholic cocktail made with fruit juices, syrups, and other ingredients.",
+        "price": 4.49
+    },
+    {
+        "id": 18,
+        "name": "Strawberry Mojito",
+        "dsc": "A refreshing summer drink made with fresh strawberries, mint leaves, and lime juice.",
+        "price": 5.99
+    }
+]

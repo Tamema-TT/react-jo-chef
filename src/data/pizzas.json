@@ -1,0 +1,26 @@
+[
+  {
+    "id": 9,
+    "name": "Margherita",
+    "dsc": "Tomato sauce, mozzarella, and basil.",
+    "price": 10.99
+  },
+  {
+    "id": 10,
+    "name": "Pepperoni",
+    "dsc": "Tomato sauce, mozzarella, and pepperoni.",
+    "price": 12.99
+  },
+  {
+    "id": 11,
+    "name": "Vegetarian",
+    "dsc": "Tomato sauce, mozzarella, mushrooms, green peppers, onions, and olives.",
+    "price": 13.99
+  },
+  {
+    "id": 12,
+    "name": "Meat Lovers",
+    "dsc": "Tomato sauce, mozzarella, pepperoni, sausage, bacon, and ham.",
+    "price": 15.99
+  }
+]
